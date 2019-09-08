@@ -7,9 +7,10 @@
 body {
     font-family: 'Merriweather', serif;
     font-size: 1em;
+    color: #2b3741;
 }
 
-h2,legend, p {
+h2, legend, p {
     padding: 12px 0;
 }
 
@@ -19,7 +20,7 @@ h2,legend, p {
 }
 
 header {
-    background-color: #292929;
+    background-color: #3d6383;
     padding-top: 20px;
     color: #ffffff;
     text-transform: uppercase;
@@ -58,7 +59,7 @@ button {
     width: 100%;
     height: 50px;
     color: white;
-    background-color: #b3b3b3;
+    background-color: #3d6383;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -73,9 +74,13 @@ fieldset {
     border: none;
 }
 
-::-webkit-input-placeholder { text-align:right; }
+::-webkit-input-placeholder {
+    text-align: right;
+}
 
-input:-moz-placeholder { text-align:right; }
+input:-moz-placeholder {
+    text-align: right;
+}
 
 legend {
     font-size: 1.5em;
@@ -83,7 +88,6 @@ legend {
 
 input, textarea {
     background-color: #f3f3f3;
-
     transition: background-color 1s ease-in-out;
 }
 
@@ -91,18 +95,21 @@ input:focus, textarea:focus {
     background-color: #d8d8d8;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
-textarea {
+input[type="text"], input[type="number"], input[type="email"], textarea {
     font-size: 1em;
     width: 100%;
     padding: 10px;
-height: 50px;
-
+    height: 50px;
     border-radius: 3px;
     overflow: hidden;
-    outline-style:none;
+    outline-style: none;
+}
+
+select {
+    outline: 0; 
+    border:1px solid black; 
+    width: 70%;
+    font-size: 1em;
 }
 
 #other {
@@ -130,32 +137,22 @@ footer {
     padding: 20px 0;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
     margin: 10px;
 }
 
 @media (min-width: 768px) {
-
     .container {
         width: 768px;
     }
-    
-   
-
-    input[type="text"],
-input[type="number"],
-input[type="email"] {
-
-    width: 70%;
-    margin: 10px 0;
-}
-
-label {
-    width: 224px;
-}
-.contact label {
-    margin: 10px 0;
-}
-
+    input[type="text"], input[type="number"], input[type="email"] {
+        width: 70%;
+        margin: 10px 0;
+    }
+    label {
+        width: 224px;
+    }
+    .contact label {
+        margin: 10px 0;
+    }
 }
