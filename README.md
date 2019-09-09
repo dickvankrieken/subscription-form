@@ -1,2 +1,7 @@
 # Techdegree-unit-3
- My third techdegree project
+
+For my third project for the Treehouse Techdegree, I had to create a form that people can use to subscribe to a newsletter. I was provided with a set of mock-up images, that I had to transform into code. The form and its code is just designed for the front-end side of the coding process (HTML and CSS). It would require a back-end language as well, if we would want it to be able to process real user input, but that is something that we did not have to address in this project.
+
+The form is designed according to the mobile-first principle, which means that it was designed to be shown properly on a mobile device first, and that after that, extra media queries were added in the CSS code so that the layout of the page slightly changes so that its looks are optimized when it is shown on larger screens such as tablets and desktops. In short this means that the form can be used and looks great on both smaller and bigger screens. 
+
+I am trying to get an 'exceeds expectations' grade and for that reason I have changed the color of the heading, I have added additional placeholder texts in the formfields (the 'optional' text), and I have used CSS transition effects which makes the form input elements change its background color to a darker shade of grey, whenever the user clicks the field to start typing in it. As the user moves to the next form field the previous input elements' background-color changes back to normal and the new form element then changes its color.
