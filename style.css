@@ -10,6 +10,10 @@ body {
     color: #2b3741;
 }
 
+h1 {
+    font-size: 1.6em;
+}
+
 h2, legend, p {
     padding: 12px 0;
 }
@@ -21,7 +25,7 @@ h2, legend, p {
 
 header {
     background-color: #3d6383;
-    padding-top: 20px;
+    padding-top: 25px;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -108,7 +112,7 @@ input[type="text"], input[type="number"], input[type="email"], textarea {
 select {
     outline: 0; 
     border:1px solid black; 
-    width: 70%;
+    width: 69%;
     font-size: 1em;
 }
 
@@ -141,18 +145,27 @@ input[type="checkbox"], input[type="radio"] {
     margin: 10px;
 }
 
+.textarea-label {
+    padding: 0;
+    margin: 10px 0;
+    display: inline-block;
+}
+
 @media (min-width: 768px) {
     .container {
         width: 768px;
     }
     input[type="text"], input[type="number"], input[type="email"] {
-        width: 70%;
+        width: 69%;
         margin: 10px 0;
     }
-    label {
-        width: 224px;
+
+    fieldset {
+        padding: 10px;
     }
+
     .contact label {
         margin: 10px 0;
+        width: 224px;
     }
 }
