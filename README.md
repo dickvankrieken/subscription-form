@@ -1,5 +1,4 @@
 # Subscription Form
-## FEWD Techdegree Project #3
 This is a form that people can use to subscribe to a newsletter. 
 The form and its code is just designed for the front-end side of the coding process (HTML and CSS). 
 
